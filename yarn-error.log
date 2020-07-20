@@ -1,0 +1,79 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\aicra\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\aicra\AppData\Local\Microsoft\WindowsApps;;C:\Users\aicra\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aicra\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin;C:\Users\aicra\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\aicra\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141375:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:709:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:481:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "axios": "^0.18.0",
+      "expo": "^38.0.8",
+      "prop-types": "^15.7.2",
+      "react": "16.8.3",
+      "react-dom": "^16.13.1",
+      "react-native": "0.59.5",
+      "react-native-gesture-handler": "^1.6.1",
+      "react-native-iphone-x-helper": "^1.2.0",
+      "react-native-qrcode": "^0.2.7",
+      "react-native-screens": "^2.9.0",
+      "react-native-vector-icons": "^6.4.2",
+      "react-native-web": "^0.13.3",
+      "react-navigation": "^3.9.1",
+      "reactotron-react-native": "^3.2.2",
+      "styled-components": "^4.2.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.4.4",
+      "@babel/runtime": "^7.4.4",
+      "babel-eslint": "^10.0.1",
+      "babel-jest": "^24.7.1",
+      "babel-plugin-root-import": "^6.1.0",
+      "eslint": "^5.16.0",
+      "eslint-config-airbnb": "^17.1.0",
+      "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
+      "eslint-plugin-import": "^2.17.2",
+      "eslint-plugin-jsx-a11y": "^6.2.1",
+      "eslint-plugin-react": "^7.12.4",
+      "eslint-plugin-react-native": "^3.7.0",
+      "jest": "^24.7.1",
+      "metro-react-native-babel-preset": "^0.53.1",
+      "react-test-renderer": "16.8.3"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
